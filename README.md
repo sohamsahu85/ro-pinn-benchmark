@@ -48,7 +48,7 @@ Graphical abstract: [`manuscript/graphical_abstract.pdf`](manuscript/graphical_a
 Requires Python 3.10+.
 
 ```bash
-git clone https://github.com/<your-username>/ro-pinn-benchmark.git
+git clone https://github.com/sohamsahu85/ro-pinn-benchmark.git
 cd ro-pinn-benchmark
 pip install -r requirements.txt
 python reproduce_ro_pinn.py selftest      # no data needed; ends with RESULT: PASS

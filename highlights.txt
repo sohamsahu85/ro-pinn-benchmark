@@ -1,0 +1,15 @@
+HIGHLIGHTS
+
+Benchmarking a Physics-Informed Neural Network Against a Physics-Only
+Regression and Gaussian Process Regression for Reverse Osmosis Membrane
+Degradation Diagnosis
+
+Soham Sahu, Aakarsh Agrawal, Dr. Rajesh Mahadeva
+(Guided by Dr. Rajesh Mahadeva and Dr. Varadharajan)
+
+- Under the paper's literal loss, the physics term has zero gradient on the network.
+- PINN and plain NN are therefore bit-identical for lambda = 0, 1, 10, 100.
+- A network-free physics-only regression is the best of 15 models on salinity.
+- Physics-only gives +0.033 R2 (bootstrap-supported) and a 1.56x stronger anomaly signal.
+- It reproduces the defect-fraction (beta) rise on degraded data with no network.
+- GPR's predictive uncertainty is flat and fails to detect the degradation.
